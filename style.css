@@ -173,40 +173,43 @@
 
 
 
-/*
-
 @media screen and (max-width:1200px){
   
   .logo3 .content, .logo2, .navbar2 li{
-     position: relative;
-     left: 5px;
-   }
- 
-   .navbar2 li{
-     position: relative;
-     left: 250px;
-     bottom: 60px;
-   }
- 
-   .footer2 .main3{
-      position: relative;
-      left: 200px;
-   }
-   .footer2 .last-logo{
-     position: relative;
-     left: 5px;
+    position: relative;
+    left: 5px;
   }
+
+  .navbar2 li{
+    position: relative;
+    left: 250px;
+    bottom: 60px;
+  }
+
+
+  .footer2 .last-logo{
+    position: relative;
+    left: 20px;
+ }
+
+ .navbar li{
+  position: relative;
+  color: black;
+  left: 250px;
+  bottom: 220px;
+
+}
+
+.footer2 .main3{
+  position: relative;
+  left: 200px;
+  display: flex;
+  top: 20px;
+
+}
  
-  .navbar li{
-   position: relative;
-   color: black;
-   left: 250px;
-   bottom: 220px;
  
  }
- 
- 
- }*/
  
  
  @media screen and (max-width:576px){
@@ -222,9 +225,6 @@
       bottom: 60px;
     }
 
-    
-    
-  
 
     .footer2 .last-logo{
       position: relative;
@@ -246,6 +246,7 @@
     top: 20px;
   
   }
+}
   
  
  
