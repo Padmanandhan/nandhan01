@@ -1,0 +1,284 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header*/
+
+.navbar li{
+  display: inline;
+  position: relative;
+  bottom: 635px;
+  left: 900px;
+  padding: 20px;
+  
+}
+
+.navbar a:hover{
+  color: red;
+  
+}
+
+.navbar a{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1px;
+
+}
+
+.logo1{
+  position: relative;
+  bottom: 670px;
+  left: 300px;
+  width: 50px;
+}
+
+/* Main 1 */
+
+.navbar2 li{
+  display: inline;
+  position: relative;
+  bottom: 45px;
+  left: 900px;
+  padding: 20px;
+  
+}
+
+.navbar2 a:hover{
+  color: red;
+  
+}
+
+.navbar2 a{
+  color: rgb(30, 30, 80);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1px;
+
+}
+
+.logo2{
+  position: relative;
+  bottom: 78px;
+  left: 300px;
+  width: 150px;
+}
+
+.banner2{
+  position: relative;
+  bottom: 70px;
+}
+
+.crslbanner{
+  position: relative;
+  bottom: 74px;
+  right: 2px;
+}
+
+/* Main 2 */
+
+.banner3{
+  position: relative;
+  bottom: 50px;
+  
+}
+
+.main2 .h2{
+  position: relative;
+  bottom: 60px;
+}
+
+.logo3{
+  background-color: #414F6A;
+  position: relative;
+  bottom: 50px;
+  padding: 6px;
+}
+
+.logo3 a{
+  color: #B0B4BF;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 800;
+  font-size: 19px;
+  position: relative;
+  left: 250px;
+  padding: 15px;
+  text-decoration: none;
+
+}
+
+.logo3 a:hover{
+    color: #414F6A;
+    background-color: #B0B4BF;
+    padding: 6px;
+    
+    
+}
+
+.logo3 a::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  padding: 0.3px;
+  bottom: 10px;
+  left: 0;
+  background-color: #414F6A;
+ 
+}
+
+/* Footer */
+
+.footer2{
+  background-color: #414F6A;
+  padding: 35px;
+  position: relative;
+  margin-top: -54px;
+  
+}
+
+.banner1, .banner2, .crslbanner, .banner3, .h2{
+   width: 100%;
+}
+
+.footer2 .main3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 1px;
+  position: relative;
+  color: #7487ac;
+  top: 10px;
+  left: 900px;
+  top: 1px;
+  display: inline;
+
+}
+
+.last-logo{
+  position: relative;
+  top: 25px;
+  left: 2px;
+  width: 160px;
+  margin-top: -100px;
+
+}
+
+/* Carousel */
+
+
+
+
+
+/*
+
+@media screen and (max-width:1200px){
+  
+  .logo3 .content, .logo2, .navbar2 li{
+     position: relative;
+     left: 5px;
+   }
+ 
+   .navbar2 li{
+     position: relative;
+     left: 250px;
+     bottom: 60px;
+   }
+ 
+   .footer2 .main3{
+      position: relative;
+      left: 200px;
+   }
+   .footer2 .last-logo{
+     position: relative;
+     left: 5px;
+  }
+ 
+  .navbar li{
+   position: relative;
+   color: black;
+   left: 250px;
+   bottom: 220px;
+ 
+ }
+ 
+ 
+ }*/
+ 
+ 
+ @media screen and (max-width:576px){
+   
+   .logo3 .content, .logo2, .navbar2 li{
+      position: relative;
+      left: 5px;
+    }
+  
+    .navbar2 li{
+      position: relative;
+      left: 250px;
+      bottom: 60px;
+    }
+
+    
+    
+  
+
+    .footer2 .last-logo{
+      position: relative;
+      left: 20px;
+   }
+  
+   .navbar li{
+    position: relative;
+    color: black;
+    left: 250px;
+    bottom: 220px;
+  
+  }
+  
+  .footer2 .main3{
+    position: relative;
+    left: 200px;
+    display: flex;
+    top: 20px;
+  
+  }
+  
+ 
+ 
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
